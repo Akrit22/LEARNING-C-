@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 void hi(){
-	cout<<"\n********************************";
+	cout<<"\n*****************************";
 	cout<<"\n Press 1 if you want to element at last.";
 	cout<<"\n Press 2 if you want to element at First.";
 	cout<<"\n Press 3 if you want to element at some position.";
 	cout<<"\n Press 9 to exit.";
-	cout<<"\n********************************";
+	cout<<"\n****************************";
 	cout<<"\n Press key: ";
 }
 int main(){
@@ -23,19 +23,19 @@ int main(){
 	}
 	hi();
 	cin>>n1;
-	cout<<"\n********************************\n";
+	cout<<"\n*****************************\n";
 	while(n!=0){
 		switch(n1){
 			case 1: cout<<"enter the element to be added :";
 			cin>>el;
 			a[n+1]=el;
 			n=n+1;
-			cout<<"********************************\n";
+			cout<<"*******************************\n";
 			cout<<"element of a"<<endl;
             for(i=1;i<=n;i++){
 		        cout<<a[i]<<" ";
 			}
-			cout<<"\n********************************";
+			cout<<"\n*******************************";
 			break;
 			
 			case 2: cout<<"enter the element to be added :";
@@ -45,12 +45,12 @@ int main(){
 			}
 			a[1]=el;
 			n=n+1;
-			cout<<"********************************\n";
+			cout<<"*******************************\n";
 			cout<<"element of a"<<endl;
             for(i=1;i<=n;i++){
 		        cout<<a[i]<<" ";
 			}
-			cout<<"\n********************************";
+			cout<<"\n*******************************";
 			break;
 			
 			case 3: cout<<"enter the element to be added :";
@@ -65,23 +65,23 @@ int main(){
 			}
 			a[pos]=el;
 			n=n+1;
-			cout<<"********************************\n";
+			cout<<"*******************************\n";
 			cout<<"element of a"<<endl;
             for(i=1;i<=n;i++){
 		        cout<<a[i]<<" ";
 			}
-			cout<<"\n********************************";
+			cout<<"\n*******************************";
 			break;
 				
 				
 			
 			case 9: cout<<"showing your element before exiting \n";
-                    cout<<"********************************\n";
+                    cout<<"*******************************\n";
                  	cout<<"element of a"<<endl;
                     for(i=1;i<=n;i++){
 	                   	cout<<a[i]<<" ";
 	                  		}
-                   	cout<<"\n********************************\n";
+                   	cout<<"\n*****************************\n";
                 	cout<<"exit";
                 	return 1;
                 	break;
@@ -91,7 +91,7 @@ int main(){
 	}
 	hi();
 	cin>>n1;
-	cout<<"\n********************************\n";
+	cout<<"\n*****************************\n";
 }
 	
 	return 0;
